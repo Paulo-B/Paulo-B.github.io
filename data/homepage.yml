@@ -1,0 +1,85 @@
+---
+banner:
+  title: "Some Devops Engineer" 
+social:
+  twitter: ""
+  linkedin: pjbento 
+  github: Paulo-B 
+  gitlab: ""
+  facebook: ""
+  instagram: ""
+  gmail: "" 
+about:
+  enable: true
+  content: Open-Source, Cloud, K8s, Go, enthusiast 
+  button:
+    btnText: Find out more
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: Azure 
+      logo: "https://swimburger.net/media/ppnn3pcl/azure.png" 
+      description: |
+        Experience with most of the fundamental services like VMs, Vnets, Dns Zones, Private Links, Endpoints, AKS, Container Apps, Functions Apps, etc.
+    - title: K8S
+      logo: "https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png?raw=true"
+      description: |
+        Experinece with various flavours of K8s, including Rancher on-prem, EKS and AKS. Managing, creating, adminstrating clusters.
+    - title: AWS
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
+      description: |
+        Experience with most of the fundamental services like EC2, ECS, EKS, VPC, ALB, NLB, TGW, Route53, etc.
+    - title: Gitlab CI
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9mJjZW07YRbcDqZKCxDoXDXeEieDztjLNGSKMCoAXQ&s"
+      description: |
+        Experience with developing complex pipelines and re-usable pipelines
+    - title: Azure Devops
+      logo: "https://cdn.iconscout.com/icon/free/png-256/free-azure-devops-3628645-3029870.png?f=webp"
+      description: |
+        Experience with developing complex pipeline and re-usable pipelines. Some experience with classic pipelines and Azure Devops Administration
+    - title: Python
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png" 
+      description: |
+        Experience with creating automation and scripts with Python.
+    - title: Go
+      logo: "https://miro.medium.com/v2/resize:fit:384/1*lgZkB5FIZEqR6v-h_ZpCNw.png" 
+      description: |
+        Experience with some smaller projects and personal projects
+    - title: Bash
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_SZtX8GSKwW9nC8dnTaJeVoaf_O94DF7qEknd62BMPg&s" 
+      description: |
+        Experience doing mid complexity scripts. Sincerily, if it gets too complicated I would prefer to use Python for scripting
+    - title: OpenTofu (Terraform)
+      logo: "https://yt3.googleusercontent.com/5YcK2Ct51EpMypUwieqsYMEX_tNlWfbSHi1_-Y-APE2NOFTfZ230LuCWYPgiKO9EwJYUHmsafQ=s900-c-k-c0x00ffffff-no-rj"
+      description: |
+        Manage infrastructure as Code with Terraform/OpenTofu
+
+experience:
+  enable: true
+  item:
+    - logo: https://upload.wikimedia.org/wikipedia/commons/f/f3/Eurotux-logotipo.jpg 
+      title: System Administrator/Devops Engineer 
+      company: Eurotux 
+      duration: October 2020 - January 2024
+    - logo: "https://media.licdn.com/dms/image/D4D0BAQH5O7efvI-NjA/company-logo_200_200/0/1692266279301/xgeeks_logo?e=2147483647&v=beta&t=55P71Cl0YC7CciuqsIVMwcx3HyapsRvv1vCNrJ4ksyQ"
+      title: Devops Engineer 
+      company: xGeeks 
+      duration: January 2024 - ?
+certifications:
+  enable: true
+  item:
+    - title: "CKA - Expires 25/03/2027" 
+      image: "https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png"
+      url: https://www.credly.com/badges/caee4814-213f-4363-9192-b9388770a51f
+education:
+  enable: true
+  item:
+    - title: BSc Informatics Engineering 
+      year: 2016 - 2019
+      academy: Universidade do Minho 
+      image: "https://mobfood.pt/wp-content/uploads/2018/10/um.png" 
+portfolio:
+  filter:
+    - label: Web Dev
+      value: web-dev

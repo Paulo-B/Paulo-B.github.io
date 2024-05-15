@@ -1,0 +1,567 @@
+<!DOCTYPE html>
+<script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-gb"><head>
+  <meta charset="utf-8">
+  <title>Paulo Bento&#39;s Lair</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="Some Devops that exists">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Paulo Bento">
+  <meta name="generator" content="Hugo 0.125.4">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="//localhost:1313/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="//localhost:1313/css/syntax.min.css" integrity="" media="screen">
+
+  <link rel="alternate" type="application/rss+xml" href="//localhost:1313/index.xml" title="Paulo Bento's Lair" />
+<script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li class="uk-active "><a style="font-size: 18px; text-transform: none"
+                        href="//localhost:1313/"> Home </a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/blog">Blog</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li class="uk-active"><a style="font-size: 18px" href="//localhost:1313/"> Home </a>
+            </li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/blog">Blog</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+  
+
+
+
+<!-- Hexagon Stylesheet -->
+
+<link rel="stylesheet" href="//localhost:1313/css/hexagon.min.css">
+
+<!-- Index -->
+
+<link rel="stylesheet" href="//localhost:1313/css/index.min.css">
+
+<section>
+    
+    <div class="uk-container uk-margin-large-top uk-margin-xlarge-bottom">
+
+        <h1 class="uk-heading-large">Some Devops Engineer</h1>
+    </div>
+
+
+</section>
+
+<div class="uk-text-center uk-margin-xlarge-bottom uk-margin-xlarge-top">
+    <ul id="links" class="icons">
+        
+        
+         
+        <li><a href="https://www.linkedin.com/in/pjbento">
+            <img class="contain" src="https://cdn.svgporn.com/logos/linkedin-icon.svg" alt="LinkedIn" loading="lazy"> </a></li>
+          
+        <li><a href="https://github.com/Paulo-B"> <img
+                    class="contain" src="https://cdn.svgporn.com/logos/github-icon.svg" alt="GitHub" loading="lazy"> </a></li>
+             
+    </ul>
+
+
+</div>
+
+
+
+
+
+<section class="uk-margin-large-top">
+    <div class="uk-container">
+        <div class="uk-text-center">
+            
+            <p class="uk-text-lead">Open-Source, Cloud, K8s, Go, enthusiast</p>
+            
+            <a class="uk-button uk-button-text" href="//localhost:1313/about">Find out more</a>
+            
+            
+        </div>
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="modal_Azure" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Azure</h2>
+        </div>
+        <p>Experience with most of the fundamental services like VMs, Vnets, Dns Zones, Private Links, Endpoints, AKS, Container Apps, Functions Apps, etc.
+</p>
+    </div>
+</div>
+
+<div id="modal_K8S" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">K8S</h2>
+        </div>
+        <p>Experinece with various flavours of K8s, including Rancher on-prem, EKS and AKS. Managing, creating, adminstrating clusters.
+</p>
+    </div>
+</div>
+
+<div id="modal_AWS" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">AWS</h2>
+        </div>
+        <p>Experience with most of the fundamental services like EC2, ECS, EKS, VPC, ALB, NLB, TGW, Route53, etc.
+</p>
+    </div>
+</div>
+
+<div id="modal_Gitlab_CI" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Gitlab CI</h2>
+        </div>
+        <p>Experience with developing complex pipelines and re-usable pipelines
+</p>
+    </div>
+</div>
+
+<div id="modal_Azure_Devops" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Azure Devops</h2>
+        </div>
+        <p>Experience with developing complex pipeline and re-usable pipelines. Some experience with classic pipelines and Azure Devops Administration
+</p>
+    </div>
+</div>
+
+<div id="modal_Python" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Python</h2>
+        </div>
+        <p>Experience with creating automation and scripts with Python.
+</p>
+    </div>
+</div>
+
+<div id="modal_Go" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Go</h2>
+        </div>
+        <p>Experience with some smaller projects and personal projects
+</p>
+    </div>
+</div>
+
+<div id="modal_Bash" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">Bash</h2>
+        </div>
+        <p>Experience doing mid complexity scripts. Sincerily, if it gets too complicated I would prefer to use Python for scripting
+</p>
+    </div>
+</div>
+
+<div id="modal_OpenTofu__Terraform_" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
+        <button class="uk-modal-close-default" type="button" uk-close></button>
+        <div class="uk-modal-header">
+            <h2 class="uk-modal-title">OpenTofu (Terraform)</h2>
+        </div>
+        <p>Manage infrastructure as Code with Terraform/OpenTofu
+</p>
+    </div>
+</div>
+
+
+<section class="uk-margin-large-top uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line uk-text-center uk-heading-medium"><span>Skills</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to find out more</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+            uk-grid>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://swimburger.net/media/ppnn3pcl/azure.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Azure">
+                <h4>Azure</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png?raw=true" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_K8S">
+                <h4>K8S</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_AWS">
+                <h4>AWS</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRw9mJjZW07YRbcDqZKCxDoXDXeEieDztjLNGSKMCoAXQ&amp;s" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Gitlab_CI">
+                <h4>Gitlab CI</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://cdn.iconscout.com/icon/free/png-256/free-azure-devops-3628645-3029870.png?f=webp" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Azure_Devops">
+                <h4>Azure Devops</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Python">
+                <h4>Python</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://miro.medium.com/v2/resize:fit:384/1*lgZkB5FIZEqR6v-h_ZpCNw.png" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Go">
+                <h4>Go</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_SZtX8GSKwW9nC8dnTaJeVoaf_O94DF7qEknd62BMPg&amp;s" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_Bash">
+                <h4>Bash</h4>
+            </div>
+            
+            <div class="imagemargin">
+                <img class="contain skills" src="https://yt3.googleusercontent.com/5YcK2Ct51EpMypUwieqsYMEX_tNlWfbSHi1_-Y-APE2NOFTfZ230LuCWYPgiKO9EwJYUHmsafQ=s900-c-k-c0x00ffffff-no-rj" alt="" loading="lazy" style="cursor: pointer"
+                    uk-toggle="target: #modal_OpenTofu__Terraform_">
+                <h4>OpenTofu (Terraform)</h4>
+            </div>
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Experience</span></h1>
+
+        <div class="uk-child-width-1-4@m uk-child-width-1-2  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Eurotux-logotipo.jpg" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">System Administrator/Devops Engineer</h3>
+                        </div>
+                        <p style="height: 4em">Eurotux</p>
+                        <p>October 2020 - January 2024</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://media.licdn.com/dms/image/D4D0BAQH5O7efvI-NjA/company-logo_200_200/0/1692266279301/xgeeks_logo?e=2147483647&amp;v=beta&amp;t=55P71Cl0YC7CciuqsIVMwcx3HyapsRvv1vCNrJ4ksyQ" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding: initial">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title uk-heading-small">Devops Engineer</h3>
+                        </div>
+                        <p style="height: 4em">xGeeks</p>
+                        <p>January 2024 - ?</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-large-top uk-margin-medium-bottom">
+    <div class="uk-container">
+        <h1 class="uk-heading-line  uk-heading-medium"><span>Certifications</span></h1>
+
+        <p class="uk-text-center uk-text-lead"><i>Click the images below to view the proof</i></p>
+        <div class="uk-child-width-1-6@l uk-child-width-1-3@m uk-child-width-1-3@s uk-child-width-1-2 uk-text-center uk-flex-center"
+             uk-grid >
+            
+            <a href="https://www.credly.com/badges/caee4814-213f-4363-9192-b9388770a51f" class="imagemargin">
+                <img class="contain certs" src="https://images.credly.com/size/340x340/images/8b8ed108-e77d-4396-ac59-2504583b9d54/cka_from_cncfsite__281_29.png" alt="CKA - Expires 25/03/2027" loading="lazy" style="cursor: pointer">
+                CKA - Expires 25/03/2027
+            </a>
+
+            
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="uk-margin-xlarge-bottom">
+    <div class="uk-container">
+
+        <h1 class="uk-heading-line uk-heading-medium  uk-margin-large-bottom"><span>Education</span></h1>
+
+
+        <div class=" uk-grid-large uk-child-width-1-3@s uk-child-width-1  uk-text-center uk-flex-center" uk-grid
+            style="padding-left: 20px; padding-right: 20px">
+
+            
+            <div>
+                <div class="uk-card uk-card-default uk-height-max-large">
+                    <div class="uk-card-media-top">
+                        <img class="contain experience" src="https://mobfood.pt/wp-content/uploads/2018/10/um.png" alt="" style="padding: 20px" loading="lazy">
+                    </div>
+                    <div class="uk-card-body" style="padding-top: 0">
+                        <div style="height: 5em">
+                            <h3 class="uk-card-title">Universidade do Minho</h3>
+                        </div>
+                        <p style="height: 4em">BSc Informatics Engineering</p>
+                        <p>2016 - 2019</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+
+
+
+
+</section>
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:DoNotShareEmailsOnInternet@toldyouso.gotcha">DoNotShareEmailsOnInternet@toldyouso.gotcha</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+          <div uk-lightbox>
+            <a href="" data-caption="Portugal"
+               data-type="iframe">Portugal</a>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+      <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+      2024
+      Paulo Bento 
+    </div>
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
