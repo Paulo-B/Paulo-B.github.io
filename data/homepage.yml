@@ -1,6 +1,6 @@
 ---
 banner:
-  title: "Some Devops Engineer" 
+  title: "Paulo Bento"
 social:
   twitter: ""
   linkedin: pjbento 
@@ -11,7 +11,7 @@ social:
   gmail: "" 
 about:
   enable: true
-  content: Open-Source, Cloud, K8s, Go, enthusiast 
+  content: DevOps Engineer focused on cloud infrastructure, Kubernetes, and open-source. Currently at xGeeks.
   button:
     btnText: Find out more
     URL: "/about"
@@ -80,7 +80,7 @@ education:
       academy: Universidade do Minho 
       image: "https://mobfood.pt/wp-content/uploads/2018/10/um.png" 
 portfolio:
-  enable: true
+  enable: false
   filter:
     - label: Web Dev
       value: web-dev
