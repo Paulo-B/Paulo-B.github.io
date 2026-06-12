@@ -27,7 +27,7 @@ skill:
       description: |
         Experience with various flavours of K8s, including Rancher on-prem, EKS and AKS. Managing, creating, administrating clusters.
     - title: AWS
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
+      logo: "/logos/aws.svg"
       description: |
         Experience with most of the fundamental services like EC2, ECS, EKS, VPC, ALB, NLB, TGW, Route53, etc.
     - title: Gitlab CI
@@ -39,7 +39,7 @@ skill:
       description: |
         Experience with developing complex pipeline and re-usable pipelines. Some experience with classic pipelines and Azure Devops Administration
     - title: Python
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/640px-Python-logo-notext.svg.png" 
+      logo: "/logos/python.svg"
       description: |
         Experience with creating automation and scripts with Python.
     - title: Go
@@ -47,11 +47,11 @@ skill:
       description: |
         Experience with some smaller projects and personal projects
     - title: Bash
-      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_SZtX8GSKwW9nC8dnTaJeVoaf_O94DF7qEknd62BMPg&s" 
+      logo: "/logos/bash.svg"
       description: |
         Experience doing mid complexity scripts. Sincerily, if it gets too complicated I would prefer to use Python for scripting
     - title: OpenTofu (Terraform)
-      logo: "https://yt3.googleusercontent.com/5YcK2Ct51EpMypUwieqsYMEX_tNlWfbSHi1_-Y-APE2NOFTfZ230LuCWYPgiKO9EwJYUHmsafQ=s900-c-k-c0x00ffffff-no-rj"
+      logo: "/logos/terraform.svg"
       description: |
         Manage infrastructure as Code with Terraform/OpenTofu
 
