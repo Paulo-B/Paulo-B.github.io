@@ -62,9 +62,9 @@ experience:
       title: System Administrator/Devops Engineer 
       company: Eurotux 
       duration: October 2020 - January 2024
-    - logo: "https://media.licdn.com/dms/image/D4D0BAQH5O7efvI-NjA/company-logo_200_200/0/1692266279301/xgeeks_logo?e=2147483647&v=beta&t=55P71Cl0YC7CciuqsIVMwcx3HyapsRvv1vCNrJ4ksyQ"
-      title: Devops Engineer 
-      company: xGeeks 
+    - logo: "/logos/xgeeks.svg"
+      title: Devops Engineer
+      company: Synvert Xgeeks
       duration: January 2024 - Present
 certifications:
   enable: true
