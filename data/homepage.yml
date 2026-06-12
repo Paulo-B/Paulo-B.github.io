@@ -25,7 +25,7 @@ skill:
     - title: K8S
       logo: "https://github.com/kubernetes/kubernetes/blob/master/logo/logo.png?raw=true"
       description: |
-        Experinece with various flavours of K8s, including Rancher on-prem, EKS and AKS. Managing, creating, adminstrating clusters.
+        Experience with various flavours of K8s, including Rancher on-prem, EKS and AKS. Managing, creating, administrating clusters.
     - title: AWS
       logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/2560px-Amazon_Web_Services_Logo.svg.png"
       description: |
@@ -65,7 +65,7 @@ experience:
     - logo: "https://media.licdn.com/dms/image/D4D0BAQH5O7efvI-NjA/company-logo_200_200/0/1692266279301/xgeeks_logo?e=2147483647&v=beta&t=55P71Cl0YC7CciuqsIVMwcx3HyapsRvv1vCNrJ4ksyQ"
       title: Devops Engineer 
       company: xGeeks 
-      duration: January 2024 - ?
+      duration: January 2024 - Present
 certifications:
   enable: true
   item:
@@ -80,6 +80,15 @@ education:
       academy: Universidade do Minho 
       image: "https://mobfood.pt/wp-content/uploads/2018/10/um.png" 
 portfolio:
+  enable: true
   filter:
     - label: Web Dev
       value: web-dev
+  item:
+    - title: "Your Project Name"
+      image: "/images/portfolio/placeholder.png"
+      description: "Replace this with a real project description."
+      tools:
+        - kubernetes
+        - terraform
+      link: "https://github.com/Paulo-B"
