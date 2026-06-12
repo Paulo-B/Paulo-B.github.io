@@ -1,0 +1,76 @@
+{{ define "main" }}
+
+<style>
+  .review-disclaimer {
+    background: #fff9e6;
+    border-left: 4px solid #faa05a;
+    padding: 12px 20px;
+    margin-bottom: 2rem;
+    font-size: 0.9rem;
+  }
+  .review-cover {
+    display: block;
+    max-height: 400px;
+    max-width: 100%;
+    object-fit: cover;
+    margin: 0 auto 2rem;
+    border-radius: 4px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  }
+  .review-rating {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1e87f0;
+    text-align: center;
+    margin-bottom: 0.25rem;
+  }
+  .review-rating-label {
+    text-align: center;
+    color: #999;
+    font-size: 0.85rem;
+    margin-bottom: 2rem;
+  }
+  .review-content p { margin-bottom: 1em; }
+  .review-content h1,
+  .review-content h2,
+  .review-content h3 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    margin-top: 2rem;
+  }
+  .review-content {
+    width: 90vw;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+</style>
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+
+    <div class="review-disclaimer">
+      ⚠️ These are personal opinions and not professional reviews. Take them with a grain of salt.
+    </div>
+
+    {{ if .Params.image }}
+    <img class="review-cover" src="{{ .Params.image }}" alt="{{ .Title }}">
+    {{ end }}
+
+    <h1 class="uk-text-center uk-heading-medium">{{ .Title }}</h1>
+    <p class="uk-text-center uk-text-meta">{{ .PublishDate.Format "Jan 02, 2006" }}</p>
+
+    {{ if .Params.rating }}
+    <p class="review-rating">{{ .Params.rating }}<span style="font-size:1.5rem; color:#999;">/10</span></p>
+    <p class="review-rating-label">Personal rating</p>
+    {{ end }}
+
+    <hr>
+
+    <div class="review-content">
+      {{ .Content }}
+    </div>
+
+  </div>
+</section>
+
+{{ end }}
