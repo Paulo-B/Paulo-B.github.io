@@ -1,7 +1,7 @@
 ---
-title: "The balls are back"
+title: "World of Goo 2" 
 date: 2026-06-25T10:00:00Z
-description: ""
+description: "The balls are back and now they have fluids too"
 image: "/images/game-reviews/world-of-goo-2.png"
 rating: 8
 ---
