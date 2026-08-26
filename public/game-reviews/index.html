@@ -18,7 +18,7 @@
   <title>Paulo Bento&#39;s Lair</title>
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" property="og:description" content="This is meta description.">
+  <meta name="description" property="og:description" content="Personal game reviews. Not professional. Just a DevOps guy with opinions.">
   <meta name="image" property="og:image" content="/">
   <meta name="author" content="Paulo Bento">
   <meta name="generator" content="Hugo 0.163.3">
@@ -32,7 +32,7 @@
   
   <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
 
-  <link rel="alternate" type="application/rss+xml" href="https://paulo-b.github.io/portfolio/index.xml" title="Paulo Bento's Lair" />
+  <link rel="alternate" type="application/rss+xml" href="https://paulo-b.github.io/game-reviews/index.xml" title="Paulo Bento's Lair" />
   <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
 
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
@@ -45,7 +45,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400&display=swap">
   <link rel="stylesheet" href="/css/custom.css">
 </head>
-<body class="portfolio">
+<body class="game-reviews">
     <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
     <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
         <div class="uk-navbar-right">
@@ -83,7 +83,8 @@
                 
                 
                 
-                <li><a style="font-size: 18px; text-transform: none" href="/game-reviews">Game Reviews</a></li>
+                <li class="uk-active"><a style="font-size: 18px; text-transform:none"
+                        href="/game-reviews">Game Reviews</a></li>
                 
                 
             </ul>
@@ -130,7 +131,7 @@
             
             
             
-            <li><a style="font-size: 18px" href="/game-reviews">Game Reviews</a></li>
+            <li class="uk-active"><a style="font-size: 18px" href="/game-reviews">Game Reviews</a></li>
             
             
         </ul>
@@ -138,61 +139,97 @@
     </div>
 </div>
 
- 
+
+
+
 
 <section class="uk-margin-large-bottom">
-        <h1 class="uk-heading-large uk-text-center">Portfolio</h1>
+        <h1 class="uk-heading-large uk-text-center">Game Reviews</h1>
 </section>
 
 
 
-<section>
-  <div class="uk-container uk-margin-xlarge-bottom">
-    <div uk-filter="target: .js-filter">
-      <ul class="uk-subnav uk-subnav-pill uk-subnav-divider">
-        <li uk-filter-control><a href="#">All</a></li>
-        
-
-        <li uk-filter-control="[data-tags*='web-dev']">
-          <a href="#">Web Dev</a>
-        </li>
-
-        
-      </ul>
-
-      <ul
-        class="js-filter uk-child-width-1-1 uk-child-width-1-4@m uk-text-center"
-        uk-grid
-        uk-height-match="target: > li > div > .fixy"
-      >
-        
-        <li data-tags="web-dev">
-          <div class="uk-card uk-card-default" style="position: relative;">
-            <div class="fixy">
-              <div class="uk-card-media-top">
-                <img
-                  class="contain experience"
-                  src="https://res.cloudinary.com/samrobbins/image/upload/q_auto/v1591793276/logos/logos_hugo_h2xbne.svg"
-                  alt=""
-                />
-              </div>
-              <div class="uk-card-body">
-                <h3 class="uk-card-title">Team project without GitHub</h3>
-                <p>A portfolio website made with Hugo</p>
-              </div>
+<section class="uk-margin-large-bottom">
+    <div class="uk-container">
+        <div class="uk-grid-small uk-child-width-1-3@m uk-child-width-1-2@s" uk-grid uk-height-match="target: > div > .uk-card">
+            
+            <div>
+                <div class="uk-card uk-card-default uk-width-1@m">
+                    
+                    <div class="uk-card-media-top">
+                        <img src="/images/game-reviews/everdeep-aurora.jpg" alt="Everdeep Aurora" style="width:100%; height:200px; object-fit:cover;">
+                    </div>
+                    
+                    <div class="uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom">
+                            <h3 class="uk-card-title uk-margin-remove">Everdeep Aurora</h3>
+                            
+                            <span class="uk-badge" style="background:#1e87f0; font-size:0.9rem; padding:4px 8px;">6/10</span>
+                            
+                        </div>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                            <time datetime="2026-08-26 10:00:00 &#43;0000 UTC">Aug 26, 2026</time>
+                        </p>
+                        <p>The potential, like the Everdeep monster, is locked</p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="/game-reviews/everdeep-aurora/" class="uk-button uk-button-text">Read review</a>
+                    </div>
+                </div>
             </div>
-
-            <div class="uk-card-footer">
-              <a href="/portfolio/example-team-no-github/" class="uk-button uk-button-text"
-                >Read more</a
-              >
+            
+            <div>
+                <div class="uk-card uk-card-default uk-width-1@m">
+                    
+                    <div class="uk-card-media-top">
+                        <img src="/images/game-reviews/world-of-goo-2.png" alt="World of Goo 2" style="width:100%; height:200px; object-fit:cover;">
+                    </div>
+                    
+                    <div class="uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom">
+                            <h3 class="uk-card-title uk-margin-remove">World of Goo 2</h3>
+                            
+                            <span class="uk-badge" style="background:#1e87f0; font-size:0.9rem; padding:4px 8px;">8/10</span>
+                            
+                        </div>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                            <time datetime="2026-06-25 10:00:00 &#43;0000 UTC">Jun 25, 2026</time>
+                        </p>
+                        <p>The balls are back and now they have fluids too</p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="/game-reviews/world-of-goo-2/" class="uk-button uk-button-text">Read review</a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </li>
-        
-      </ul>
+            
+            <div>
+                <div class="uk-card uk-card-default uk-width-1@m">
+                    
+                    <div class="uk-card-media-top">
+                        <img src="/images/game-reviews/control.jpg" alt="Control" style="width:100%; height:200px; object-fit:cover;">
+                    </div>
+                    
+                    <div class="uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-flex-middle uk-margin-small-bottom">
+                            <h3 class="uk-card-title uk-margin-remove">Control</h3>
+                            
+                            <span class="uk-badge" style="background:#1e87f0; font-size:0.9rem; padding:4px 8px;">7/10</span>
+                            
+                        </div>
+                        <p class="uk-text-meta uk-margin-remove-top">
+                            <time datetime="2026-06-12 00:00:00 &#43;0000 UTC">Jun 12, 2026</time>
+                        </p>
+                        <p>A paranormal office thriller with a fascinating setting let down by shallow gameplay.</p>
+                    </div>
+                    <div class="uk-card-footer">
+                        <a href="/game-reviews/control/" class="uk-button uk-button-text">Read review</a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
     </div>
-  </div>
 </section>
 
 

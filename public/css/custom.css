@@ -1,0 +1,464 @@
+/* ==========================================================
+   Paulo Bento's Lair — Custom styles
+   Loaded after UIkit and theme CSS.
+   ========================================================== */
+
+/* ---- Base ------------------------------------------------ */
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: #374151;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* ---- Navigation ----------------------------------------- */
+.uk-navbar-container {
+  background: #0f172a !important;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.uk-navbar-container .uk-navbar-nav > li > a {
+  color: #94a3b8 !important;
+  font-size: 12px !important;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase !important;
+  transition: color 0.15s ease;
+  padding: 0 1.25rem;
+}
+
+.uk-navbar-container .uk-navbar-nav > li > a:hover {
+  color: #f1f5f9 !important;
+}
+
+.uk-navbar-container .uk-navbar-nav > li.uk-active > a {
+  color: #ffffff !important;
+  position: relative;
+}
+
+.uk-navbar-container .uk-navbar-nav > li.uk-active > a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 1.25rem;
+  right: 1.25rem;
+  height: 2px;
+  background: #3b82f6;
+  border-radius: 1px 1px 0 0;
+}
+
+.uk-navbar-toggle {
+  color: #94a3b8 !important;
+}
+
+/* Mobile off-canvas */
+.uk-offcanvas-bar {
+  background: #0f172a;
+}
+
+.uk-nav-primary > li > a {
+  color: #cbd5e1 !important;
+  font-weight: 500;
+}
+
+.uk-nav-primary > li > a:hover {
+  color: #ffffff !important;
+}
+
+/* ---- Hero ----------------------------------------------- */
+h1.uk-heading-large {
+  font-size: 5rem;
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  color: #0f172a;
+  line-height: 1.05;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.hero-role {
+  display: block;
+  font-size: 0.26em;
+  font-weight: 600;
+  color: #3b82f6;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  margin-top: 1.2rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Tighten the huge vertical gap under the banner */
+.uk-margin-xlarge-bottom {
+  margin-bottom: 3rem !important;
+}
+
+.uk-margin-xlarge-top {
+  margin-top: 3rem !important;
+}
+
+/* ---- Social icons — remove circles ---------------------- */
+ul.icons {
+  margin-top: 0 !important;
+  display: flex !important;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6rem;
+  list-style: none;
+  padding: 0;
+}
+
+ul.icons li {
+  display: inline-block !important;
+  padding: 0 !important;
+}
+
+ul.icons li a {
+  width: auto !important;
+  height: auto !important;
+  border-radius: 10px !important;
+  border: 1px solid #e2e8f0 !important;
+  line-height: normal !important;
+  overflow: visible !important;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem 0.7rem !important;
+  background: #ffffff;
+  transition: border-color 0.15s ease, box-shadow 0.15s ease, transform 0.15s ease;
+  text-decoration: none;
+}
+
+ul.icons li a:hover {
+  border-color: #3b82f6 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(59, 130, 246, 0.15);
+}
+
+ul.icons li a img {
+  width: 1.4rem !important;
+  height: 1.4rem !important;
+  display: block;
+  opacity: 0.75;
+  transition: opacity 0.15s ease;
+}
+
+ul.icons li a:hover img {
+  opacity: 1;
+}
+
+/* ---- About blurb ---------------------------------------- */
+.uk-text-lead {
+  color: #475569;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.uk-button-text {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  border-bottom-color: transparent;
+}
+
+.uk-button-text:hover {
+  color: #1d4ed8;
+}
+
+.uk-button-text::before {
+  background-color: #2563eb;
+}
+
+/* ---- Section headings ----------------------------------- */
+.uk-heading-medium {
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  color: #0f172a;
+}
+
+.uk-heading-small {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+.uk-heading-line::before,
+.uk-heading-line::after {
+  border-top-color: #e2e8f0;
+}
+
+/* ---- Cards ---------------------------------------------- */
+.uk-card-default {
+  border-radius: 12px;
+  border: 1px solid #e9eef5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.04), 0 4px 16px rgba(0, 0, 0, 0.04) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.uk-card-default:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.07), 0 24px 48px rgba(0, 0, 0, 0.07) !important;
+  border-color: #c7d7f5;
+}
+
+.uk-card-media-top img {
+  border-radius: 12px 12px 0 0;
+}
+
+h3.uk-card-title {
+  font-weight: 600;
+  color: #0f172a;
+  font-size: 1.05rem;
+  line-height: 1.3;
+}
+
+.uk-card-body {
+  padding: 1.25rem;
+}
+
+.uk-card-footer {
+  border-top: 1px solid #f1f5f9;
+  padding: 0.85rem 1.25rem;
+}
+
+/* ---- Buttons -------------------------------------------- */
+.uk-button-default {
+  border-radius: 8px;
+  font-weight: 500;
+  border-color: #e2e8f0;
+  transition: all 0.15s ease;
+  color: #374151;
+}
+
+.uk-button-default:hover {
+  background: #f8fafc;
+  border-color: #2563eb;
+  color: #2563eb;
+}
+
+a {
+  color: #2563eb;
+}
+
+a:hover {
+  color: #1d4ed8;
+}
+
+/* ---- Badges --------------------------------------------- */
+.uk-badge {
+  border-radius: 6px;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  font-size: 0.75rem;
+  padding: 3px 8px;
+}
+
+/* ---- Skills grid ---------------------------------------- */
+.imagemargin {
+  margin-bottom: 1.5rem;
+}
+
+.imagemargin img.skills {
+  transition: transform 0.2s ease, filter 0.2s ease;
+  filter: saturate(0.75) opacity(0.8);
+}
+
+.imagemargin:hover img.skills {
+  transform: scale(1.12);
+  filter: saturate(1) opacity(1);
+}
+
+.imagemargin h4 {
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #94a3b8;
+  margin-top: 0.5rem;
+  letter-spacing: 0.01em;
+}
+
+/* ---- Experience cards ----------------------------------- */
+img.experience {
+  width: 140px;
+  height: 160px;
+  object-fit: contain;
+}
+
+/* ---- Certifications ------------------------------------- */
+img.certs {
+  transition: transform 0.2s ease;
+}
+
+a.imagemargin:hover img.certs {
+  transform: scale(1.05);
+}
+
+/* ---- Text helpers --------------------------------------- */
+.uk-text-meta {
+  color: #94a3b8;
+  font-size: 0.82rem;
+}
+
+/* ---- Modals (skill descriptions) ------------------------ */
+.uk-modal-dialog {
+  border-radius: 14px;
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.18);
+}
+
+.uk-modal-title {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+/* ---- Dropdowns ------------------------------------------ */
+.uk-dropdown {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04), 0 12px 28px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e2e8f0;
+  padding: 0.4rem;
+}
+
+.uk-dropdown-nav > li > a {
+  border-radius: 6px;
+  padding: 0.4rem 0.75rem;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.uk-dropdown-nav > li > a:hover {
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+/* ---- Footer --------------------------------------------- */
+.footer {
+  background: #0f172a;
+  color: #64748b;
+  border-top: none;
+  padding-top: 2.5rem;
+}
+
+.footer h5 {
+  color: #e2e8f0;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.footer a {
+  color: #475569;
+  transition: color 0.15s ease;
+}
+
+.footer a:hover {
+  color: #e2e8f0;
+}
+
+.footer-copyright {
+  color: #334155;
+  font-size: 0.8rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  padding-top: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.footer-copyright img {
+  opacity: 0.35;
+  margin-right: 3px;
+}
+
+/* ---- HR ------------------------------------------------- */
+hr, hr.full-width {
+  border-color: #f1f5f9;
+  margin: 2rem 0;
+}
+
+/* ---- Page title (list pages) ---------------------------- */
+section .uk-heading-large.uk-text-center {
+  font-size: 2.75rem;
+  margin-bottom: 0.5rem;
+}
+
+/* ---- Game review — disclaimer banner -------------------- */
+.review-disclaimer {
+  background: #fffbeb;
+  border: 1px solid #fde68a;
+  border-left: 4px solid #f59e0b;
+  border-radius: 8px;
+  padding: 0.875rem 1.25rem;
+  margin-bottom: 2.5rem;
+  font-size: 0.875rem;
+  color: #92400e;
+}
+
+/* ---- Game review — cover image -------------------------- */
+.review-cover {
+  display: block;
+  max-height: 420px;
+  max-width: 340px;
+  width: 100%;
+  object-fit: cover;
+  margin: 0 auto 2rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* ---- Game review — rating ------------------------------- */
+.review-rating {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #2563eb;
+  text-align: center;
+  letter-spacing: -0.04em;
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.review-rating-label {
+  text-align: center;
+  color: #94a3b8;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 2.5rem;
+}
+
+/* ---- Game review — body text ---------------------------- */
+.review-content {
+  width: 90vw;
+  max-width: 720px;
+  margin: 0 auto;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #374151;
+}
+
+.review-content p {
+  margin-bottom: 1.25em;
+}
+
+.review-content h1,
+.review-content h2,
+.review-content h3 {
+  color: #0f172a;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin-top: 2rem;
+  letter-spacing: -0.02em;
+}
+
+.review-content strong {
+  color: #0f172a;
+  font-weight: 600;
+}
+
+.review-content ul {
+  padding-left: 1.25rem;
+}
+
+.review-content ul li {
+  margin-bottom: 0.4rem;
+  color: #374151;
+  font-family: 'Inter', sans-serif;
+}

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Paulo Bento&#39;s Lair</title>
-		<link>https://paulo-b.github.io/</link>
-		<description>Recent content on Paulo Bento&#39;s Lair</description>
+		<title>Game Reviews on Paulo Bento&#39;s Lair</title>
+		<link>https://paulo-b.github.io/game-reviews/</link>
+		<description>Recent content in Game Reviews on Paulo Bento&#39;s Lair</description>
 		<generator>Hugo</generator>
 		<language>en-gb</language>
 		
@@ -12,7 +12,7 @@
 		
 			<lastBuildDate>Wed, 26 Aug 2026 10:00:00 +0000</lastBuildDate>
 		
-			<atom:link href="https://paulo-b.github.io/index.xml" rel="self" type="application/rss+xml" />
+			<atom:link href="https://paulo-b.github.io/game-reviews/index.xml" rel="self" type="application/rss+xml" />
 			<item>
 				<title>Everdeep Aurora</title>
 				<link>https://paulo-b.github.io/game-reviews/everdeep-aurora/</link>
@@ -33,13 +33,6 @@
 				<pubDate>Fri, 12 Jun 2026 00:00:00 +0000</pubDate>
 				<guid>https://paulo-b.github.io/game-reviews/control/</guid>
 				<description>&lt;p&gt;Control is a game developed by Remedy Entertainment, a Finnish studio. The creators present a unique atmosphere that should be praised in terms of creativity, going away from the typical fantasy, mythology, or on the other end, the sci-fi that we are so used to. For that, they venture into the realm of the paranormal, but not the folklore kind. Instead, one set inside a brutalist, capitalist office building.&lt;/p&gt;&#xA;&lt;p&gt;The story begins with Jesse Faden, who is looking for her brother Dylan. That search leads her to enter the FBC (Federal Bureau of Control), a secret agency that works to hide from public view any kind of paranormal activity, with the help of her inner dialogue guiding the player through the world. These paranormal activities are called AWEs (Altered World Events), that can happen anywhere, alongside other concepts we will not mention to avoid spoilers. The game comes with its own terminology, which makes it more believable in the sense that this is a governmental agency that has everything categorized, defined, and buried in its own bureaucracy. And with bureaucracy, normally, comes hierarchy, which this agency also has. In the first minutes of the game, you find that the Director is dead (Trench), and by taking his weapon you become the new one, chosen by the Board. The Board is an unknown entity whose only shape and form we see is an inverted pyramid. And this is the setup, which, at least for me, is quite appealing.&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>Team project without GitHub</title>
-				<link>https://paulo-b.github.io/portfolio/example-team-no-github/</link>
-				<pubDate>Fri, 19 Jun 2020 23:00:00 +0000</pubDate>
-				<guid>https://paulo-b.github.io/portfolio/example-team-no-github/</guid>
-				<description>&lt;p&gt;This is some content&lt;/p&gt;</description>
 			</item>
 	</channel>
 </rss>
