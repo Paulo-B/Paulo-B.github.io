@@ -27,6 +27,11 @@ hugo --gc        # production build into public/
 
 Hugo v0.126.0 extended is used in CI. Local version should be >= 0.126.0.
 
+## Post Dates
+
+For every new blog post or game review, set `date:` to **today at midnight UTC**: `YYYY-MM-DDT00:00:00Z`, using the UTC date (`date -u +%F`).
+Hugo skips future-dated content, so a later time (e.g. `T10:00:00Z`) can keep the post from publishing on push.
+
 ## How to Add a Blog Post
 
 Create `content/blog/my-post-title.md`:
@@ -34,7 +39,7 @@ Create `content/blog/my-post-title.md`:
 ```markdown
 ---
 title: "My Post Title"
-date: 2026-06-12T10:00:00Z
+date: 2026-06-12T00:00:00Z
 description: "One-line summary shown in the blog card."
 author: "Paulo Bento"
 type: "post"
@@ -51,7 +56,7 @@ Post content in Markdown.
 ```markdown
 ---
 title: "Game Title"
-date: 2026-06-12T10:00:00Z
+date: 2026-06-12T00:00:00Z
 description: "One-line tagline shown on the card."
 image: "/images/game-reviews/game-slug.jpg"
 rating: 8
